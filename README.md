@@ -2,6 +2,13 @@
     <h1> Javascript Lessons </h1>
 </div>
 
+<div class="install-div">
+    <ul>
+        <li> Windows/WSL Install Guide: https://fireship.io/lessons/windows-10-for-web-dev/ </li>
+        <li> Mac Install Guide: https://drive.google.com/drive/folders/1dqU8xaOMIXkBWEI8qgI1DXbQmw2WY78I </li>
+    </ul>
+</div>
+
 <div class="youtuber-div">
     <h3> Great YouTube Channels </h3>
 
