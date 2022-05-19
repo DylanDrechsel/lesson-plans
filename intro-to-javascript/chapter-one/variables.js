@@ -1,4 +1,6 @@
 // Lesson One!
+
+// What we are learning!
 // Vairable Declaration
 // Console Logs --> Output a message to the terminal
 // Basic Math Operators
@@ -13,8 +15,8 @@ console.log('Hello, World!')
 // string --> 'Hello, World'
 // num --> 5 (number)
 // boolean --> true/false
-// Arrays
-// Objects
+// Arrays --> ['test1', 1, true]
+// Objects --> { name: 'Dylan Drechsel', address: '123 fake street' }
 
 // Printing a Variable
 const helloWorld = 'Hello, World!'
@@ -40,8 +42,8 @@ console.log(`The answer to 5 + 7 is ${five + seven}`)
 
 // Arrays --> Has Indexes That Start At 0
 const animals = ["Dog", "Cat", "Horse", "Dolphin", "Pig"]
-console.log(animals[0])
-console.log(animals[2])
+console.log(animals[0]) // --> Returns 'Dog'
+console.log(animals[2]) // --> Returns 'Horse'
 
 const doubleArray = [
   [1, 2, 3],
@@ -62,7 +64,7 @@ const user = {
   married: false
 }
 
-console.log(`The users name is ${user.username}`)
+console.log(`The users name is ${user.username}`) // Returns 'BDEman'
 
 const crazyObject = {
   id: 547,
@@ -75,5 +77,5 @@ const crazyObject = {
   }
 }
 
-console.log(crazyObject.car[1])
-console.log(crazyObject.anotherObject.message)
+console.log(crazyObject.car[1]) // --> Returns Toyota
+console.log(crazyObject.anotherObject.message) // --> Returns 'Hello from another object'
